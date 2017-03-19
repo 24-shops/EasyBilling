@@ -18,7 +18,7 @@ class PaymentAPI
 	// Валюта
 	$currency_id,
 	
-	// Описание платежа
+	// Назначение платежа
 	$description;
 	
 	/**
