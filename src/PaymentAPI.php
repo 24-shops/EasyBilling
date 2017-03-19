@@ -48,3 +48,5 @@ class PaymentAPI
 		return sprintf("№%s от %s на сумму %s", $values[0], $values[1], $values[2]);
 	}
 }
+
+?>
