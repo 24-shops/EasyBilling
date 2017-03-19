@@ -28,3 +28,5 @@ class WalletAPI
 	function getWallets(Database $database, $user_id) {
 	}
 }
+
+?>
