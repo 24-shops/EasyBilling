@@ -3,24 +3,27 @@
 class PaymentAPI
 {
 	protected
-		// Индификатор платежа
-		$id,
-		
-		// Платеж
-		$payment,
-		
-		// От кого
-		$userid_from,
-		
-		// Кому
-		$userid_to,
-		
-		// Сумма
-		$amount,
-		
-		// Описание платежа
-		$description;
+	// Индификатор платежа
+	$payment_id,
 	
+	// От кого
+	$user_id_from,
+	
+	// Кому
+	$user_id_to,
+	
+	// Сумма
+	$amount,
+	
+	// Валюта
+	$currency_id,
+	
+	// Описание платежа
+	$description;
+	
+	/**
+	 * Получить сумму
+	 */
 	function getAmount()
 	{
 		return $this->amount;
